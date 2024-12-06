@@ -1,0 +1,33 @@
+#start-game {
+    display: block; /* Ensure the button takes full width on smaller screens */
+    width: 90%; /* Width relative to the viewport */
+    max-width: 700px; /* Increased max-width for a larger button */
+    margin: 60px auto; /* Add more vertical spacing for emphasis */
+    padding: 20px; /* Larger padding for a bigger clickable area */
+    font-size: 80px; /* Increase font size for readability */
+    font-weight: bold; /* Make the text stand out */
+    color: #ffffff; /* White text for better contrast */
+    background-color: #007BFF; /* Primary blue background color */
+    border: none; /* Remove default border */
+    border-radius: 10px; /* More rounded corners for a modern look */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Subtle shadow for depth */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effect */
+}
+
+#start-game:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight upward movement on hover */
+}
+
+#start-game:active {
+    background-color: #003f7f; /* Even darker blue when active */
+    transform: translateY(3px); /* Slight downward movement on click */
+}
+
+@media (max-width: 600px) {
+    #start-game {
+        font-size: 20px; /* Adjust font size for smaller screens */
+        padding: 18px; /* Reduce padding slightly for smaller screens */
+    }
+}
