@@ -1,4 +1,4 @@
-const apiUrl = "https://script.google.com/macros/s/AKfycbzshw0wQWt-BVdQbKL6TBO4S0ZCX-GJoewXkD2m8mwE86lrxHqc1aiAxXj3TQcxIzd4/exec";
+const apiUrl = "https://script.google.com/macros/s/AKfycbx6Y_j5WGZd_EP73gc2SEvfQujCqPR8b8O2fH0qi5XtI-G1j0nxQ5wdYKTiKc_5py7z8g/exec";
 
 // Function to start the game
 async function startGame() {
@@ -48,7 +48,3 @@ async function generateWinner() {
         console.error("Error starting the game:", error);
     }
 }
-
-
-
-
